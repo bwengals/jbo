@@ -8,18 +8,18 @@ what I understand this looks somewhat like this...
 
 
      Alice --><-- video/audio --><-- Bob  (Their browsers)
-	  \                               /
-	   \                             /
-	    \                           /
-		 \--><--signal server--><--/      (Ours)
+      \                               /
+       \                             /
+        \                           /
+         \--><--signal server--><--/      (Ours)
                      ^
                      |
-					 |
+                     |
                   endpoints
-					 ^
-					 |
-					 |
-				website server           (Ours)
+                     ^
+                     |
+                     |
+                website server           (Ours)
 
 
 Our website first sends the endpoints (Alice and Bob) to a signaling server.
