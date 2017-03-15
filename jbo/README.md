@@ -1,12 +1,12 @@
 # Start it up!
 
-0. Need to do this just once.  Install application dependencies in `job` directory:
+0. Need to do this just once.  Install application dependencies in `jbo` directory:
 
 	npm install
 
-1. Start it up.  In `job` directory:
+1. Start it up.  In `jbo` directory:
 
-	DEBUG=job:* npm start
+	DEBUG=jbo:* npm start
 
 2. In browser go to [0.0.0.0:3000](0.0.0.0:3000) or [localhost:3000](localhost:3000).
 
