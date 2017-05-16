@@ -96,7 +96,7 @@ router.get('/chat/:id', function(req, res) {
     res.sendfile(__dirname + '/views/chat.html');
 });
 
-app.set('port', process.env.PORT || 1337);
-console.log('listening on 1337')
+app.set('port', process.env.PORT || 3000);
+console.log('Listening on port 3000')
 app.use('/', router);
 server.listen(app.get('port'));

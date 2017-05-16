@@ -9,7 +9,7 @@ dependencies in `jbo` directory (where you see 'packages.json'):
 
 	npm start
 
-2. In browser go to [0.0.0.0:3000](0.0.0.0:3000) or [localhost:3000](localhost:3000).
+2. In browser go to [localhost:3000](localhost:3000) (not 0.0.0.0, must be called 'localhost' for webrtc to work).
 
 
 # How I set this up:

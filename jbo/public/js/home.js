@@ -58,12 +58,6 @@ $('#leave').click(function() {
     $('#localVideo').toggle();
 });
 
-$('#next').click(function() {
-    socket.emit('user-ready');
-    webrtc.leaveRoom();
-    $('#msgs').text('Finding Users ... ');
-});
-
 socket.on('id', function(msg) {
     socket.emit('not-ready');
     $('#msgs').text('User Found!');
@@ -71,7 +65,8 @@ socket.on('id', function(msg) {
 });
 
 webrtc.on('videoRemoved', function(peer) {
-    $('#msgs').text('User Left! Click "Next" to find a new match.');
+    webrtc.leaveRoom();
+    $('#msgs').text('Your partner left ... ');
 });
 
 socket.on('users-online', function(msg) {
