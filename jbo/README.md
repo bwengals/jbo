@@ -1,16 +1,16 @@
-# Start it up!
+# How to start
 
-0. Need to do this just once.  Install application dependencies in `jbo` directory:
+0. Need to do this just once after `git pull`.  Install application
+dependencies in `jbo` directory (where you see 'packages.json'):
 
 	npm install
 
-1. Start it up.  In `jbo` directory:
+1. Start it up:
 
-	DEBUG=jbo:* npm start
+	npm start
 
 2. In browser go to [0.0.0.0:3000](0.0.0.0:3000) or [localhost:3000](localhost:3000).
 
 
 # How I set this up:
-1. [This tutorial](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/).  They used
-jade though, which looks depreciated.  The new version is pug, so I used that instead.
+Modifed version of https://github.com/dgonzalez21/Node-Chat
